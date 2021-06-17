@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.82.0">
+  <title>Martin J. Kraemer</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bibtex.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
+</head>
+
+<body class="h-100 text-start bg-light">
+
+
+
+  <header class="mb-auto  bg-dark d-flex">
+    <div class="container-fluid">
+      <div class="navbar bg-dark navbar-dark">
+        <div class="container-fluid navbar-dark justify-content-end" style="max-width:1140px;">
+          <div class="me-auto p-2 navbar-brand">Martin J. Kraemer</div>
+          <div class="p-2  navbar-expand">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="publications.html">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="container bg-light " style="max-width:1140px;">
+    <main class="bg-light ">
+
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row  g-3 p-3">
+          <div class="col-md-8">
+            <h2>Publications</h2>
+
+
+
+            <!-- bibtex source -->
+            <bibtex src="paper/references.bib"></bibtex>
+            <!-- bibtex structure -->
+            <div class="bibtex_structure">
+              <div class="sections bibtextypekey">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Refereed Articles and Conference Papers
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="section article accordion-body">
+                        <div class="sort year" extra="DESC number">
+                          <div class="templates"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Talks
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="section Unpublished accordion-body">
+                        <div class="sort year" extra="DESC number">
+                          <div class="templates"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Extended Abstracts and Posters
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="section inproceedings accordion-body">
+                        <div class="sort year" extra="DESC number">
+                          <div class="templates"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Reports and Workshops
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="section techreport accordion-body">
+                        <div class="sort year" extra="DESC number">
+                          <div class="templates"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Other Publications
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                      <div class="section phdthesis|mastersthesis|bachelorsthesis|misc accordion-body">
+                        <div class="sort year" extra="DESC number">
+                          <div class="templates"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="panel-group" id="accordionref"> -->
+                <!-- <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordionref" href="#collapseref0">Refereed Articles and Conference Papers</a>
+                            </h4>
+                          </div>
+                          <div id="collapseref0" class="panel-collapse collapse in">
+                            <div class="section article panel-body">
+                              <div class="sort year" extra="DESC number">
+                                <div class="templates"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                <!-- <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordionref" href="#collapseref1">Talks</a>
+                            </h4>
+                          </div>
+                          <div id="collapseref1" class="panel-collapse collapse in">
+                            <div class="section Unpublished panel-body">
+                              <div class="sort year" extra="DESC number">
+                                <div class="templates"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                <!-- <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordionref" href="#collapseref2">Extended Abstracts and Posters</a>
+                            </h4>
+                          </div>
+                          <div id="collapseref2" class="panel-collapse collapse in">
+                            <div class="section inproceedings panel-body">
+                              <div class="sort year" extra="DESC number">
+                                <div class="templates"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordionref" href="#collapseref3">Reports and Workshops</a>
+                            </h4>
+                          </div>
+                          <div id="collapseref3" class="panel-collapse collapse in">
+                            <div class="section techreport panel-body">
+                              <div class="sort year" extra="DESC number">
+                                <div class="templates"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                <!-- <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordionref" href="#collapseref4">Other Publications</a>
+                            </h4>
+                          </div>
+                          <div id="collapseref4" class="panel-collapse collapse in">
+                            <div class="section phdthesis|mastersthesis|bachelorsthesis|misc panel-body">
+                              <div class="sort year" extra="DESC number">
+                                <div class="templates"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                <!-- </div> -->
+              </div>
+            </div>
+            <!-- bibtex template -->
+            <!-- https://github.com/pcooksey/bibtex-js/wiki/Customizable-Template -->
+            <div class="bibtex_template">
+              <div style="float:left; width: 90%; max-width: calc(100% - 50px);margin-top:10px;">
+                <a class="url" style="">
+                  <span class="title"></span>
+                </a>
+                </br>
+                <span class="author" style="font-size:12px"></span>
+                </br>
+                <span style="font-size:12px">
+                  <span class="if booktitle"><span class="booktitle"></span></span>
+                  <span class="if publication"><span class="publication"></span></span>
+                  <span class="if journal"><span class="journal"></span></span>
+                  <span class="if series"><span class="series"></span></span>
+                  <span class="if school"><span class="school"></span></span>
+                </span>
+              </div>
+              <div style="float:right; width: 10%; min-width: 50px; margin-top:10px;">
+                <span class="if year">
+                  <span class="year"></span>
+                  </br>
+                </span>
+                <span class="if file">
+                  <a class="file" style="color:black; font-size:10px">
+                    <b>[download]</b>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div id="bibtex_display"></div>
+
+            <!-- /.col-lg-4 -->
+
+          </div>
+          <div class="col-md-4">
+            <h2>Research Grants</h2>
+            <h4>Doctoral studies</h4>
+            <ul style="list-style-type:none;padding:0px">
+              <li>May 2019 &mdash; May 2020:
+                <a href="https://digiwell.web.ox.ac.uk/informing-future-smart-homes">Informing the Future of Data Protection by Desing in Smart Homes</a>
+              </li>
+              <li>Oct 2017 &mdash; May 2018:
+                <a href="https://www.riscs.org.uk/wp-content/uploads/2019/03/2018-RISCS-Annual-Report.pdf">Supporting Data Security and Privacy in the Home</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </div>
+
+
+
+
+
+    </main>
+
+    <footer class="mt-auto text-white-50  bg-light text-center">
+      <p class="copyright text-muted small">Copyright &copy; Martin J. Kraemer 2021. All Rights Reserved</p>
+    </footer>
+    <!-- </div> -->
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+-->
+</body>
+
+</html>
