@@ -58,6 +58,14 @@ h1 {
  * Header
  */
 
+ *, ::after, ::before {
+ 	box-sizing: border-box;
+ }
+
+ #header * {
+ 	transition: ease-in-out 0.3s;
+ }
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -74,25 +82,38 @@ h1 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fdf8ec;
 }
 
-section {
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-  top: 140px;
-  bottom: 100%;
-  opacity: 0;
-  transition: ease-in-out 0.4s;
-  z-index: 2;
+#header.header-top .navbar {
+	margin: 0;
 }
 
-section.section-show {
-  top: 100px;
-  bottom: auto;
-  opacity: 1;
-  padding-bottom: 45px;
+#header.header-top h1 {
+	margin-right: auto;
+	font-size: 36px;
+}
+
+#header.header-top .container {
+	display: flex;
+	align-items: center;
+}
+div.tab-content div.tab-pane.show {
+	top: 100px;
+	bottom: auto;
+	opacity: 1;
+	padding-bottom: 45px;
+}
+
+ div.tab-content div.tab-pane {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	top: 140px;
+	bottom: 100%;
+	/* opacity: 0; */
+	transition: ease-in-out 0.4s;
+	z-index: 2;
 }
 
 .navbar{
@@ -109,22 +130,16 @@ section.section-show {
 .nav-link:focus {
   border-bottom-color: #7c9bd1;
 }
-  
+
 .active {
   font-weight: bolder;
 }
 .navbar li + li {
   margin-left: 30px;
 }
-
-.nav-item .active{
-  border-bottom: 1px solid white;
+.navbar li {
+	position: relative;
 }
-.nav-masthead .active {
-  color: #2c231b;
-  border-bottom-color: #fff;
-}
-
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -150,6 +165,13 @@ section.section-show {
   visibility: visible;
   width: 25px;
 }
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #2c231b;
+	background-color: transparent;
+}
+
 
 .social-links {
   margin-top: 40px;
