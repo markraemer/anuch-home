@@ -380,3 +380,12 @@ font-weight: bold;
 .credits a:hover {
   color: #a78765;
 }
+
+.container h2::after {
+	
+	width: 120px;
+	height: 1px;
+	display: inline-block;
+	background: #4ceb95;
+	margin: 4px 10px;
+}
