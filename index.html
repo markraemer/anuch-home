@@ -140,16 +140,23 @@ Specific Purposes, Multiliteracies in language education
 
 
     <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="navpills-tab-publications">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 pt-4 pt-lg-0 content">
-            <h2>Publications</h2>
+       <bibtex src="paper/references.bib"></bibtex>
+      <div class="container bibtex_structure">
+        <h2>Publications</h2>
+        <div class="row sections bibtextypekey">
+          <div class="col-lg-6">
+            <div class="section book">
+              <div class="sort year" extra="DESC number">
+                <div class="templates"></div>
+              </div>
+            </div>
+          </div>  
+        </div>
 
 
-
-            <!-- bibtex source -->
-            <bibtex src="paper/references.bib"></bibtex>
-            <!-- bibtex structure -->
+     
+           
+            <!--  
             <div class="bibtex_structure">
               <div class="sections bibtextypekey">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -310,8 +317,8 @@ Specific Purposes, Multiliteracies in language education
                           </div>
                         </div> -->
                 <!-- </div> -->
-              </div>
-            </div>
+              <!--</div>
+            </div>  -->
             <!-- bibtex template -->
             <!-- https://github.com/pcooksey/bibtex-js/wiki/Customizable-Template -->
             <div class="bibtex_template">
