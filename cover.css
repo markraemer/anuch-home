@@ -386,6 +386,16 @@ font-weight: bold;
 	width: 120px;
 	height: 1px;
 	display: inline-block;
-	background: #4ceb95;
+	background: #a78765;
 	margin: 4px 10px;
+	content: "";
+}
+.container h2 {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1px;
+	margin: 0 0 20px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
