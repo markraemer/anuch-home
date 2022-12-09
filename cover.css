@@ -428,3 +428,10 @@ font-weight: bold;
 	border-left: 2px solid rgba(255, 255, 255, 0.2);
 	position: relative;
 }
+.resume-item h4 {
+	line-height: 18px;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
